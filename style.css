@@ -4,8 +4,8 @@ body {
 	}
 
 
-/*Format for all divs on page*/
-.header, .navbar, .introtext, .container, .footer {
+/*Format for all divs on pages*/
+.header, .navbar, .introtext, .container, .footer, .CatPage, .DinoPage {
 	width:90%;
 	margin:auto;
 	}
@@ -33,7 +33,7 @@ h1 {
 /*Navigation Bar and Links*/
 .navbar {
 	background-color: #FF69B4;
-	height:30px;	
+	height:40px;	
 	padding-top:10px;
    }
 
@@ -50,7 +50,6 @@ ul li a {
 	font-family:"Impact";
 	font-size:20px;
 	text-decoration: none;
-	padding:225px;
 	}
 	
 ul li a.nav-link {
@@ -91,7 +90,7 @@ p 	{
 
 
 
-/*Main Text Section*/
+/*Index Page Main Text Section*/
 
 .container {
 	height:600px;
@@ -142,14 +141,28 @@ a {font-family:"Arial", sans-serif;
   padding:5px;
   margin:10px 100px 10px 200px;
   display: inline-block;
-  }
+  	}
 
  .button:visited {
  	background-color:black;
- 	}
+  	}
 
 .button a {
   margin-top:10px;
   margin-left:10px;
   color:white;
   }
+
+
+/*Cat and Dino Pages Main Section Format*/
+
+.CatPage {
+	background-color:#6495ED;
+	height:400px;
+	}
+
+.CatPage img {
+	float:left;
+	margin:20px;
+	}
+
