@@ -161,7 +161,12 @@ a {font-family:"Arial", sans-serif;
 	height:400px;
 	}
 
-.CatPage img {
+.DinoPage {
+	background-color:blue;
+	height:400px;
+	}
+
+.CatPage, .DinoPage img {
 	float:left;
 	margin:20px;
 	}
