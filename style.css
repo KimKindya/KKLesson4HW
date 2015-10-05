@@ -1,12 +1,22 @@
+/*Gutter Background Color*/
+body {
+	background-color:black;
+	}
+
+
 /*Format for all divs on page*/
-.header, .navbar, .introtext, .wrapper, .footer {
+.header, .navbar, .introtext, .container, .footer {
 	width:80%;
 	margin:auto;
 	}
 
+/*format for 3 divs with matching colors*/
+.header, .introtext, .footer {
+	background-color:#8A2BE2;
+	}
+
 /*Header*/
 .header {
-	background-color: #8A2BE2;
 	height:150px;	
 	}
 
@@ -37,7 +47,7 @@ ul li a {
 	font-family:"Impact";
 	font-size:15px;
 	text-decoration: none;
-}
+	}
 
 ul li a.nav-link {
 	padding: 10px;      
@@ -51,12 +61,19 @@ ul li a.nav-link:hover {
 
 
 /*Introductory Text Section*/
+
+.introtext {
+	height:125px;
+	}
+
+/*Formatting for the following will be same for main text*/
 h2 {
 	font-size:25px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	color:pink;
 	text-align:center;
 	}
+
 
 p 	{
 	font-family:"Arial", sans-serif;
@@ -65,3 +82,30 @@ p 	{
 	text-align:center;
 	}
 
+
+
+/*Main Text Section*/
+
+.container {
+	height:800px;
+	}
+
+.indexcolleft {
+	float:left;
+	width:50%;
+	height:800px;
+	background-color:aqua;
+	}
+
+.indexcolright {
+	float:right;
+	width:50%;
+	height:800px;
+	background-color:blue;
+	}
+
+a {font-family:"Arial Bold"; sans-serif;  
+   font-size:10px;
+   color:white;
+   text-decoration:none;
+   }
