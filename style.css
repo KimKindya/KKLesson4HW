@@ -121,7 +121,6 @@ img {
 
 a {font-family:"Arial", sans-serif;
    font-size:15px;
-   font-style:italic;
    color:black;
    text-decoration:none;
    margin-left:20px;
@@ -129,8 +128,28 @@ a {font-family:"Arial", sans-serif;
 
 
 
-/*Footer*/
+/*Footer with buttons*/
 
 .footer {
-	height:60px;
-	}
+	height:80px;
+   }
+
+.button {
+  border-radius:5px;
+  background-color:purple;
+  height:30px;
+  width:100px; 
+  padding:5px;
+  margin:10px 100px 10px 200px;
+  display: inline-block;
+  }
+
+ .button:visited {
+ 	background-color:black;
+ 	}
+
+.button a {
+  margin-top:10px;
+  margin-left:10px;
+  color:white;
+  }
