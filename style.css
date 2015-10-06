@@ -6,7 +6,7 @@ body {
 
 /*Format for all divs on pages*/
 .header, .navbar, .introtext, .container, .footer, .CatPage, .DinoPage {
-	width:90%;
+	width:94%;
 	margin:auto;
 	}
 
@@ -25,7 +25,7 @@ h1 {
    color:white;
    font-size:40px;
    text-align: center;
-   padding:30px 0 30px 0;
+   padding:30px 0;
    }
 
 
@@ -84,7 +84,7 @@ p 	{
 	font-family:"Arial", sans-serif;
 	font-size:18px;
 	color:white;
-	text-align: justify;
+	text-align:justify;
 	margin:20px;
 	}
 
@@ -99,7 +99,6 @@ p 	{
 .indexcolleft, .indexcolright {
 	width:50%;
 	height:600px;
-	padding-top:20px;
 	}
 
 .indexcolleft {
@@ -125,12 +124,35 @@ a {font-family:"Arial", sans-serif;
    margin-left:20px;
    }
 
+/*Cat and Dino Pages Main Section Format*/
+
+.CatPage {
+	background-color:#6495ED;
+	height:400px;
+	padding-top:20px;
+	}
+
+.DinoPage {
+	background-color:blue;
+	height:400px;
+	padding-top:20px;
+	}
+
+.CatPage img {
+	float:left;
+	margin:0 20px;
+	}
+
+.DinoPage img {
+	float:right;
+	margin:0 20px;
+	}
 
 
 /*Footer with buttons*/
 
 .footer {
-	height:80px;
+	height:60px;
    }
 
 .button {
@@ -148,30 +170,10 @@ a {font-family:"Arial", sans-serif;
   	}
 
 .button a {
-  margin-top:10px;
-  margin-left:10px;
   color:white;
+  margin:10px;
   }
 
 
-/*Cat and Dino Pages Main Section Format*/
 
-.CatPage {
-	background-color:#6495ED;
-	height:400px;
-	}
 
-.DinoPage {
-	background-color:blue;
-	height:400px;
-	}
-
-.CatPage img {
-	float:left;
-	margin:20px;
-	}
-
-.DinoPage img {
-	float:right;
-	margin:20px;
-	}
